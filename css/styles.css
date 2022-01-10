@@ -49,9 +49,48 @@ body {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title */
 
 .title-image {
-    width: 60%;
+    width: 20rem;
     transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    padding-bottom: 10%;
+}
+
+#title-div {
+    padding-bottom: 20%;
+}
+
+/* Features */
+
+#features {
+    z-index: 1;
+    background-color: white;
+    position: relative;
+}
+
+#features-div {
+    padding: 6% 15%
+}
+
+.feature {
+    text-align: center;
+    padding: 6% 5%;
+}
+
+.feature-icon {
+    font-size: 3.5rem;
+    color: #ff4c68;
+    padding-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff0026;
+}
+
+.feature-bigtext {
+    font-weight: 900;
+    font-size: 1.36rem;
 }
