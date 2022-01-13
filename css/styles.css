@@ -112,6 +112,11 @@ body {
     color: white;
 }
 
+.testimonials-item {
+    padding: 8% 10%;
+    color: white;
+}
+
 .testimonial-text {
     padding: 0 7%;
     padding-bottom: 3%;
@@ -144,4 +149,74 @@ body {
 .press-img {
     padding: 0 3%;
     width: 18%;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    background-color: white;
+}
+
+#pricing-heading {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#pricing-subheading {
+    color: #838383;
+    font-size: 1.3rem;
+    padding-top: 1%;
+}
+
+.card {
+    margin: 0 1% 7%;
+}
+
+#pricing-title-div {
+    padding: 7% 0 3%;
+}
+
+#pricing-cards {
+    padding: 0 7% 7%;
+}
+
+.card-header-text {
+    padding: 1% 2%;
+    margin: 0;
+}
+
+
+/* Call to action */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#cta-text {
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cta-download-button {
+    margin: 3% 0.7% 10%;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
+#footer-div {
+    padding: 7% 5% 7%;
+}
+
+#footer-text {
+    margin: 0;
 }
