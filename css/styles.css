@@ -5,9 +5,10 @@
 
 #intro {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.2rem;
     height: 1.5;
     font-weight: 900;
+    line-height: 4.5rem;
 }
 
 #first-container {
@@ -82,15 +83,65 @@ body {
 
 .feature-icon {
     font-size: 3.5rem;
-    color: #ff4c68;
+    color: #ef8172;
     padding-bottom: 1rem;
 }
 
 .feature-icon:hover {
-    color: #ff0026;
+    color: #ff4c68;
 }
 
 .feature-bigtext {
     font-weight: 900;
     font-size: 1.36rem;
+}
+
+.feature-subtext {
+    color: #838383;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#testimonials-div {
+    padding: 8% 10%;
+    color: white;
+}
+
+.testimonial-text {
+    padding: 0 7%;
+    padding-bottom: 3%;
+    font-size: 2.6rem;
+    font-weight: 900;
+    line-height: 3.7rem;
+}
+
+.testimonials-img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.testimonials-name {
+    padding-left: 2%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#press-div {
+    padding-bottom: 8%;
+    padding-top: 3%
+}
+
+.press-img {
+    padding: 0 3%;
+    width: 18%;
 }
